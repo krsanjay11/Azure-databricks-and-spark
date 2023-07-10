@@ -5,3 +5,4 @@
 3. Create new registration
 ![image](https://github.com/krsanjay11/Azure-databricks-and-spark/assets/21271522/6d8f2e8a-07ab-4899-8f3a-993519358546)
 3. create service principal
+![image](https://github.com/krsanjay11/Azure-databricks-and-spark/assets/21271522/f27bc33f-497d-49c8-8bc3-053995def52f)
