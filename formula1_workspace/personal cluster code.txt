@@ -1,0 +1,54 @@
+{
+  "node_type_id": {
+    "type": "allowlist",
+    "values": [
+      "Standard_D3_v2",
+      "Standard_F4"
+    ],
+    "defaultValue": "Standard_F4"
+  },
+  "spark_version": {
+    "type": "fixed",
+    "value": "auto:latest-lts"
+  },
+  "runtime_engine": {
+    "type": "fixed",
+    "value": "STANDARD"
+  },
+  "num_workers": {
+    "type": "fixed",
+    "value": 0
+  },
+  "data_security_mode": {
+    "type": "allowlist",
+    "values": [
+      "SINGLE_USER",
+      "LEGACY_SINGLE_USER",
+      "LEGACY_SINGLE_USER_STANDARD"
+    ],
+    "defaultValue": "SINGLE_USER"
+  },
+  "driver_instance_pool_id": {
+    "type": "forbidden"
+  },
+  "cluster_type": {
+    "type": "fixed",
+    "value": "all-purpose"
+  },
+  "instance_pool_id": {
+    "type": "forbidden"
+  },
+  "azure_attributes.availability": {
+    "type": "fixed",
+    "value": "ON_DEMAND_AZURE"
+  },
+  "spark_conf.spark.databricks.cluster.profile": {
+    "type": "fixed",
+    "value": "singleNode",
+    "hidden": true
+  },
+  "autotermination_minutes": {
+    "type": "fixed",
+    "value": 20
+  }
+}
